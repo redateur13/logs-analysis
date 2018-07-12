@@ -60,7 +60,7 @@ def days_with_high_errors_rates(question, query):
     perc = str(results[0][1]) + "%"
     print("*", day, "-", perc, "errors\n")
 
-# print results
+# print query results
 top_articles_and_authors(ques1, query1)
 top_articles_and_authors(ques2, query2)
 days_with_high_errors_rates(ques3, query3)
